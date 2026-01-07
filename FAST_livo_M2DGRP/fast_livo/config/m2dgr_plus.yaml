@@ -17,8 +17,8 @@ laser_point_cov : 0.001 # 0.001
 delta_time: 0.0
 
 common:
-    lid_topic:  "/velodyne_points"
-    imu_topic:  "/rslidar/imu"
+    lid_topic:  "//rslidar_points"
+    imu_topic:  "/camera/imu"
 
 preprocess:
     lidar_type: 2 # 1:Livox Avia LiDAR  2:VELO16  3:OUST64  4:XT32 
